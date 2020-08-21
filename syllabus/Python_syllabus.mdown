@@ -1,0 +1,387 @@
+---
+title: Fundamentals of Python  (Tentative Syllabus)
+geometry: margin=1in, letterpaper
+fontsize: 12pt
+numbersections: true
+header-includes:
+    - \usepackage[charter]{mathdesign}
+---
+
+                 **Course Info**
+  -------------- --------------------------
+  Course\#       LING 5981/6080
+  Semester		 Fall 2020
+  Time           M: Asynchronous online; W 3:00 PM - 4:20 PM
+  Location       GC 2575 (Wednesdays)
+  Website        Canvas/Github/Slack 
+  Prerequisites  Review the  "Prerequisites" section for more information  
+  
+                 **Instructor Info**
+  -------------- --------------------------           
+  Instructor     Aniello De Santo
+  Pronouns       He/His/Him
+  Email          aniello.desanto@utah.edu
+  Department     Linguistics
+  Office         tbd/Zoom
+  Office hours   Review the  "Office hours" section for more information 
+
+
+
+
+
+
+
+# Catalog description
+
+This course is an introduction to programming principles using Python.
+Students will acquire basic programming skills, knowledge of fundamental coding concepts, and the ability to write scripts for simple language-oriented tasks.
+Linguistic examples will be used to motivate the introduction of new coding concepts.
+We will discuss the language technologies of our daily life - spam filtering, machine translation, and more - and how they work under the hood.  
+
+No previous training in mathematics, linguistics, or computer science required.
+
+# Goals and Objectives
+
+- acquire core programming skills generalizable to any programming language
+- master essential concepts and techniques in Python programming
+- conceptualize linguistics problems in computational terms
+- translate abstract computational models into fully functional source code
+- develop learning autonomy and the ability to deepen your programming knowledge through self-study
+
+
+# Prerequisites
+
+Officially: LING 1069 OR LING 1200 OR ENGL 1200.
+But get in touch with me if you are interested in the course and haven't fulfilled the prerequisites.
+
+# Format
+
+The course is scheduled to run in a hybrid format, alternating in-person and online instruction.
+Students will be provided with materials (annotated notebooks + short video introductions) to study asynchronously in the first part of the week.
+We will then meet in person on Wednesdays.
+Wednesday lectures will be organized as hands-on labs, during which students will be guided through a deeper understanding of the materials studied online.
+Wednesday lectures will be recorded and made available on Canvas.
+Details about the first week of classes will follow via email.
+
+## Required Materials and Resources
+
+**All you need for this course is a device with a recent browser** (Windows, OS X, or Linux computer, Chromebook, Android tablet), and an internet connection.
+Ensure you have these ahead of time as they will be required to complete assignments and activities throughout the course.
+If you anticipate tech-related issues, please get in touch with me early in the semester.
+
+We will be using *Jupyter Notebook*, an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text.
+Notebooks will contain both study materials and homework for each week.
+I recommend you work on your notebooks remotely via *CoLab*, an online environment that allows you to write and execute Python in your browser, with
+no configuration required and free access to GPUs.
+However, executing Jupyter locally on your own machine is also possible.
+We will go over the details in the first week of classes.
+
+All class materials will be distributed on Canvas (you can familiarize yourself with Canvas [**here**](https://community.canvaslms.com/docs/DOC-10701)), but will also be available on the course Github page (a brief Github tutorial can be found [**here**](https://guides.github.com/activities/hello-world/)).
+Short videos will be distributed summarizing the content of each notebook to facilitate online study.
+
+
+No book is required for this course, as plenty of introductory programming resources are available online for free.
+However, if you feel the need for a more structured reference you can check out [**Automate The Boring Stuff with Python** (the pdf is available for free)](https://automatetheboringstuff.com/). 
+
+
+## Slack Channel
+
+To facilitate remote discussion/collaboration among peers with limited in person contact, this course has an associated Slack channel.
+Slack is a collaborative chatroom environment extensively used for Team synchronization in the tech industry.
+You can create a free account and join the course channel with this invite: [https://join.slack.com/t/pythonfundamentals-hq/shared_invite/zt-g3fmvghe-YjweAQELxNlZmun7_Blhpw](https://join.slack.com/t/pythonfundamentals-hq/shared_invite/zt-g3fmvghe-YjweAQELxNlZmun7_Blhpw).
+**Make sure to join the channel before the first week of classes.**
+
+
+# Grading
+
+Student grades are determined by the following components:
+
+1.  **Weekly homework (70%)**  
+    Students have to solve weekly programming assignments in Python.
+    One homework may take the form of
+    - several minor practice exercises, or
+    - a single, more open ended coding task (e.g. implementing a simple chatbot for English).
+
+    Assignments are unlocked each Monday and, unless stated otherwise, are due the following Sunday at 11:59pm.
+    Details on the requirements for each assignment will be shared with the students in advance.
+    **Assignments must be submitted via email.**
+    When computing the final grade, the lowest homework grade will be dropped.
+
+1.  **Midterm (5%)**  
+	We will have an in-class, pen-and-paper (no computer) coding midterm, which will take the form of several self-contained coding exercises.
+
+1.  **Class participation (25%)**  
+    Class participation is highly encouraged and can take various forms:
+    - asking questions in class
+    - participating during in-class discussions
+    - participating in office hours
+    - pointing out problems with the lecture notes (e.g. typos, confusing wording, broken code)
+    - frequent use of the course Slack channel (this includes both asking questions of your own and answering fellow students' questions)
+    - suggesting topics for lectures
+    - posting links to relevant online material (e.g. tutorials or news paper articles)
+    - participating in the Linguistics Department research events (e.g. colloquia)
+    
+1. **Extra-credits**
+	
+	It is possible for you to earn TWO extra credit for this course (up to 5% of your final grade). This can be accomplished by 
+	
+	- participating in one (or more) experimental Linguistic stud(ies), **and/or**
+	- attending a Department of Linguistics colloquium talk. 
+
+	To sign up for a linguistic study, please visit: http://speechlab.utah.edu/participate. php.  **Note that you are strongly encouraged to sign up early, rather than wait to the end of the semester to participate.**
+	If for any reason you are not comfortable participating in Linguistics studies for credit in this course, an alternative assignment will be made available.
+	If you need accommodation of any kind, have a question about accommodation, and/or prefer to complete an alternative assignment for any reason, please create a Sona account and then email at speechacquisitionlab@gmail.com. Arrangements for alternative assignments must be made before the current semester's add/drop deadline. If no study appointments are available, check back later, as new appointments are added periodically. If you have any questions or concerns regarding the Linguistics Study Pool or the Sona sign-up system, please contact the Linguistic Study Pool coordinators at speechacquisitionlab@gmail.com.
+
+
+	If you attend a colloquium talk, to receive credit you have to write a  1 page (typed double-spaced) summary of what the talk was about, including your general opinions on the presentation.
+	Comments do not have to pertain to the scientific content of the talk (although that is obviously welcome), but can be about presentation style/clarity/etc.
+	This report is officially due on the last day of class, but may be turned in on Canvas as soon as it is complete.
+	For information about the time and location of Linguistics talks by department faculty and visiting faculty from other institutions visit the Department webpage.
+
+
+
+## University of Utah Grading Scale
+
+**Letter**	    **Scoring**
+-------------- --------------------------
+A				100% - 94%
+A-				93.9% - 90%
+B+				89.9%–87%
+B				86.9%–84%
+B-				83.9% - 80%
+C+				79.9%–77%
+C				76.9%–74%
+C-				73.9% - 70%
+D+				69.9%–67%
+D				66.9%–64%
+D-				63.9% - 60%
+E				59.9%–0%   
+
+
+# (Tentative) Schedule by week (Subject to change)
+
+The weekly schedule consists of two lectures. 
+As a coding introduction, this course relies heavily on active-learning strategies.
+Students are strongly encouraged to bring their own laptops to class, and will be prompted to take part to the lecture development.
+There is no final exam for this class.
+
+| Week   | Monday                                        |Friday             					   | HW \# Due|
+| --:    | :--                                           | :--                                     |:--    	  |
+| 1      | Syllabus          						     | Intro  to Jupyter and Colab             | No HW Due|
+| 2      | Notebook 1: Variables and Data Types          |            			 				   | No HW Due|
+| 3      | Labor day	                  				 |	Notebook 2: Flow control			   | HW 1 Due |
+| 4      | Notebook 2: Flow control	[cont.]		 		 |									       | No HW Due|
+| 5      | Notebook 3: Lists and for-loops				 |										   | HW 2 Due |
+| 6      | Notebook 4: String Methods (fully online)	 |									       | HW 3 Due |
+| 7      | Notebook 5: File IO (fully online) 		     |	 									   | HW 4 Due |
+| 8      | Notebook 6: Dictionaries                      | 			                               | No HW Due|
+| 9      | Notebook 7: While loops						 |								           | HW 5 Due |
+| 10     | Midterm  (Group A)               			 | Midterm (Group B)					   | HW 6 Due |
+| 11     | Notebook 8: Function definition          	 |										   | No HW Due|
+| 12     | Notebook 9: REG Expressions					 |										   | HW 7 Due |
+| 13     | Notebook 10: Functions          				 |					              	   	   | HW 8 Due |
+| 14     | Notebook 10: Advanced N-gram 				 |		                                   | HW 9 Due |
+| 15     | Buffer   \& General discussion (fully online?)|					      				   | HW 10Due |	
+| 16     | Finals week									 | Class Survey Due					       | No HW Due|	
+
+Additional topics include good coding practices, design with flowcharts, debugging, and data visualization.
+**This class has no Final, but a general class survey is due for Finals week**.
+HW assignments are unlocked each Monday morning and, unless stated otherwise, are due the following **Sunday at 11:59pm**.
+
+## Guildelines for online weeks
+
+During the weeks of September 27 - October 11 and November 30 - December 3, classes will be held fully online.
+The current plan is to host brief synchronous online meetings via zoom, scheduled on Wednesdays during normal class time.
+Students will be required to come to those sessions having prepared questions to be discussed together.
+
+# General Policies
+
+
+## Contacting me 
+
+
+- Emails should be sent to aniello.desanto@utah.edu
+- Please put  LING 5981/6080 into the subject of the email, and *never* leave the subject empty!
+- Reply time < 24h in simple cases, possibly more if meddling with bureaucracy is involved.
+- We will discuss the format for office hours the first day of classes.
+
+## Office Hours
+
+Office hours will take place twice per week in a dedicated Zoom room (the link will be made available on Canvas).
+
+
+### A Note on Office hours
+
+You might feel like you need to have a specific question (e.g., about a homework) in order to come to office hours. 
+This is *not* true. 
+**Office hours are a space for us to discuss any issue/concern you might be having with the class, and you are always welcome regardless of whether you have a precise question or not.**
+Thus, you also do not need an appointment to show up to office hours.
+However, if you anticipate a longer meeting, it might be helpful for you to email me in advance so that we can set apart enough time and avoid collisions with other students.
+
+
+## Laptop policy
+
+This course requires laptops use during class (if you have tech problems, please contact me in advance).
+I recommend that you avoid using your laptop in class for activities that are not directly related to the lecture (e.g., following a Jupyter notebook in Python sessions).
+However, I do not enforce restrictions on how to use laptops. 
+Note that cognitive scientists are still debating how/whether laptop use in the classroom is related to test scores: 
+
+- Raviza, S. M., Uitvlugt, M. G., & Fenn, K. M. (2016). [*Logged in and zoned out: How laptop Internet use relates to classroom learning*](http://faculty.missouri.edu/segerti/1000/LaptopClassroomUse.pdf). Psychological Science, 28(2), 171–180.
+
+- Urry Heather L. et al (2020). [*Don't Ditch the Laptop Just Yet: A Direct Replication of Mueller and Oppenheimer's (2014) Study 1 Plus Mini-Meta-Analyses Across Similar Studies*](https://assert.pub/papers/vqyw6)
+
+
+Since we all have different needs, these are just recommendations.
+You can do as you please, as long as you are not disruptive to the class.
+
+## Attendance
+
+Attendance is strongly encouraged but it is not required.
+Students may elect not to attend class in-person with no penalty and do not need to seek an official accommodationto participate online, rather than in-person.
+However, if you elect to follow the course purely online, I would appreciate to be informed so to keep track of every student participation modality.
+
+
+
+## Late submissions
+
+Because of the highly incremental nature of the materials, I discourage late submissions.
+However, life can get in the way, thus I allow 2 late submissions without need for justification, as long as you warn me before the deadline.
+After those:
+
+- Other Homework extensions must be requested **before** the deadline (and, within reason, are usually granted);
+- Late submissions that had not been discussed before will be evaluated on a case-by-case basis.
+
+## Names/Pronouns.
+
+Class	rosters	are	provided	to	the	instructor	with	the student’s	legal	name	as	well	as	 *Preferred	first	name*	(if	previously	entered	by	you	in	the	Student	Profile	section	of	your	CIS	account,	which	managed	can	be	managed	at	any	time).	While	CIS	refers	to	this	as	merely	a	preference,	I	will	honor	you	by	referring	to	you	with	the	name	and	pronoun	that	feels	best	for	you	in	class	or	on	assignments. Please	advise	me	of	any	name	or	pronoun	changes	so	I	can	help	create	a	learning
+environment	in	which	you,	your	name,	and	your	pronoun	are	respected.	If	you	need	any	assistance	or	 support,	please	reach	out	to	the	LGBT	Resource	Center: [https://lgbt.utah.edu/campus/faculty_resources.php](https://lgbt.utah.edu/campus/faculty_resources.php
+)
+
+
+# Accommodations
+
+Accommodations will be considered on an individual basis and may require documentation.
+
+## Americans with Disabilities Act (ADA)
+
+The University of Utah seeks to provide equal access to its programs, services and activities for people with disabilities.
+If you will need accommodations in the class, reasonable prior notice needs to be given to the Center for Disability & Access, 162 Olpin Union Building, 801-581-5020.
+CDA will work with you and the instructor to make arrangements for accommodations. 
+All written information in this course can be made available in alternative format with prior notification to the Center for Disability & Access.
+The website for the Center for Disability and Access: [https://disability.utah.edu](https://disability.utah.edu)
+
+### Extreme personal circumstances
+
+Please contact your instructor as soon as possible if an extreme personal circumstance
+(hospitalization, death of a close relative, natural disaster, etc.) is interfering with your ability to
+complete your work.
+
+
+### Religious Practice 
+
+To request an accommodation for religious practices, contact your instructor at the beginning of the semester.
+
+### Active Duty Military
+
+If you are student on active duty with the military and experience issues that prevent you from participating in the course because of deployment or service responsibilities, contact your instructor as soon as possible to discuss appropriate accommodations.
+
+### An additional note on diversity and accessibility
+
+It	is	my	intent	that	students	from	all	diverse	backgrounds	and	perspectives	be	well	served	by	this	course,	that	students'	learning	needs	be	addressed	both	in	and	out	of	class,	and	that	the	diversity 
+that	students	bring	to	this	class	be	viewed	as	a	resource,	strength	and	benefit.	It	is my	intent	to	present	materials	and	activities	that	are	respectful	of	diversity:	gender,	sexuality,	age,	socioeconomic	status,	ethnicity,	race,	and	culture.
+
+I also aim to maximize accessibility for all my lecture materials.
+However, it is probable that I miss or underestimate some issues.
+Your	suggestions	are	encouraged	and	appreciated.	
+Please	let	me	 know	ways	to	improve	the	effectiveness	of	the	course	for	you	personally	or	for	other	students	or	 student	groups.
+In	addition,	if	any	of	our	class	meetings	conflict	with	your	religious	events,	please	let	me	 know	so	that	we	can	make arrangements	for	you.
+
+# COVID Policies
+
+## Face coverings requirements
+
+Based on CDC guidelines, the University requires everyone to wear face coverings in shared public spaces on campus, including our classroom.
+As a reminder, when I wear a face covering, I am protecting you. When you wear a face covering, you are protecting me and all of your classmates.
+If you forget your face covering, I will ask you to leave class to retrieve it.
+If you repeatedly fail to wear a face coveringin class, I will refer you to the Dean of Students for a possible violation of the Student Code.
+Note that some students mayqualify for accommodations through the Americans with Disabilities Act (ADA).
+If you think you meet these criteria and desire an exception to the face covering policy,contact the Center for Disability and Access(CDA).
+ Accommodations should be obtained prior to the first day of class so that I am notified by CDA of any students who are not required to wear a face covering.
+ 
+
+## Self-reporting
+
+Students must self-report if they test positive for COVID-19 via this website:  [https://coronavirus.utah.edu/](https://coronavirus.utah.edu/)
+
+
+
+# University Policies
+
+## Drop/Withdraw Policies
+
+Students may drop a course within the first two weeks of a given semester without any penalties.
+
+Students may officially withdraw (W) from a class or all classes after the drop deadline through the midpoint of a course. A “W” grade is recorded on the transcript and appropriate tuition/fees are assessed. The grade “W” is not used in calculating the student’s GPA.
+
+For deadlines to withdraw from full-term, first, and second session classes, see the U's Academic Calendar.
+
+# Plagiarism and Cheating
+
+It is assumed that all work submitted to your instructor is your own work. When you have used ideas of others, you must properly indicate that you have done so.
+
+Plagiarism and cheating are serious offenses and may be punished by failure on an individual assignment, and/or failure in the course. Academic misconduct, according to the University of Utah Student Code,
+
+“...Includes, but is not limited to, cheating, misrepresenting one’s work, inappropriately collaborating, plagiarism, and fabrication or falsification of information…It also includes facilitating academic misconduct by intentionally helping or attempting to help another to commit an act of academic misconduct.”
+
+For details on plagiarism and other important course conduct issues, see the U's Code of Student Rights and Responsibilities.
+
+# Course Materials Copyright
+
+The Content is made available only for your personal, noncommercial educational and scholarly use. You may not use the Content for any other purpose, or distribute, post or make the Content available to others, unless you obtain any required permission from the copyright holder. Some Content may be provided via streaming or other means that restrict copying; you may not circumvent those restrictions. You may not alter or remove any copyright or other proprietary notices included in the Content.
+ 
+Please see the Code of Student Rights and Responsibilities, Section III.A.5 regarding use and distribution of class Content and materials.
+https://regulations.utah.edu/academics/6-400.php
+Section III.A.5. prohibits the following:
+Sale or distribution of information representing the work product of a faculty member to a commercial entity for financial gain without the express written permission of the faculty member responsible for the course. (“Work product” means original works of authorship that have been fixed in a tangible medium and any works based upon and derived from the original work of authorship.)
+
+
+## Safety at the U
+
+The University of Utah values the safety of all campus community members. You will receive important emergency alerts and safety messages regarding campus safety via text message.
+
+For more information regarding safety and to view available training resources, including helpful videos, visit safeu.utah.edu.
+
+To report suspicious activity or to request a courtesy escort, contact: Campus Police & Department of Public Safety, 801-585-COPS (801-585-2677), dps.utah.edu
+
+
+## Wellness at the U
+
+Your personal health and wellness are essential to your success as a student. Personal concerns like stress, anxiety, relationship difficulties, depression, or cross-cultural differences can interfere with a student’s ability to succeed and thrive in this course and at the University of Utah.
+
+Please feel welcome to reach out to your instructor or TA's to handle issues regarding your coursework.
+
+For helpful resources to manage your personal wellness and counseling options, contact: wellness.utah.edu or womenscenter.utah.edu
+
+## Addressing Sexual Misconduct
+
+Title	IX	makes	it	clear	that	violence	and	harassment	based	on	sex	and	
+gender	(which	Includes	sexual	orientation	and	gender	identity/expression)	is	a	civil	rights	offense	subject	
+to	the	same	kinds	of	accountability	and	the	same	kinds	of	support	applied	to	offenses	against	other	
+protected	categories	such	as	race,	national	origin,	color,	religion,	age,	status	as	a	person	with	a	
+disability,	veteran’s	status	or	genetic	information.	If	you	or	someone	you	know	has	been harassed	or	assaulted,	you	are	encouraged	to	report	it	to	the	Title	IX	Coordinator	in	the	Office	of	Equal	Opportunity	
+and	Affirmative	Action,	135	Park	Building,	801-581-8365,	or	the	Office	of	the	Dean	of	Students,	270	
+Union	Building,	801-581-7066.	For	support	and	confidential	consultation,	contact	the	Center	for	Student	
+Wellness,	426	SSB,	801-581-7776.	To	report	to	the	police,	contact	the	Department	of	Public	Safety,	801-
+585-2677(COPS).	
+
+## Campus Safety 
+
+The	University	of	Utah	values	the	safety	of	all	campus	community	members.	To	report	
+suspicious	activity,	call	campus	police	at 801-585-COPS (801-585-2677).	You	will	receive	important	 emergency	alerts	and	safety	messages	regarding	campus	safety	via	text	message.	For	more	information	
+regarding	safety	and	to	view	available	training	resources,	including	helpful	videos,	visit [safeu.utah.edu](safeu.utah.edu).
+
+# Changes to the Syllabus
+
+This syllabus is not a contract. It is meant to serve as an outline and guide for your course. Please note that your instructor may modify it to accommodate the needs of your class.
+
+You will be notified of any changes to the Syllabus.
