@@ -165,23 +165,23 @@ As a coding introduction, this course relies heavily on active-learning strategi
 Students are strongly encouraged to bring their own laptops to class, and will be prompted to take part to the lecture development.
 There is no final exam for this class.
 
-| Week   | Monday                                        |Friday             					   | HW \# Due|
+| Week   | Monday                                        |Wednesday            					   | HW \# Due|
 | --:    | :--                                           | :--                                     |:--    	  |
 | 1      | Syllabus          						     | Intro  to Jupyter and Colab             | No HW Due|
 | 2      | Notebook 1: Variables and Data Types          |            			 				   | No HW Due|
-| 3      | Labor day	                  				 |	Notebook 2: Flow control			   | HW 1 Due |
-| 4      | Notebook 2: Flow control	[cont.]		 		 |									       | No HW Due|
-| 5      | Notebook 3: Lists and for-loops				 |										   | HW 2 Due |
-| 6      | Notebook 4: String Methods (fully online)	 |									       | HW 3 Due |
-| 7      | Notebook 5: File IO (fully online) 		     |	 									   | HW 4 Due |
-| 8      | Notebook 6: Dictionaries                      | 			                               | No HW Due|
-| 9      | Notebook 7: While loops						 |								           | HW 5 Due |
-| 10     | Midterm  (Group A)               			 | Midterm (Group B)					   | HW 6 Due |
-| 11     | Notebook 8: Function definition          	 |										   | No HW Due|
-| 12     | Notebook 9: REG Expressions					 |										   | HW 7 Due |
-| 13     | Notebook 10: Functions          				 |					              	   	   | HW 8 Due |
-| 14     | Notebook 10: Advanced N-gram 				 |		                                   | HW 9 Due |
-| 15     | Buffer   \& General discussion (fully online?)|					      				   | HW 10Due |	
+| 3      | Labor day	                  				 | Notebook 2: Flow control		     	   | HW 1 Due |
+| 4      | Notebook 3: Lists and for-loops				 |										   | HW 2 Due |
+| 5      | Notebook 4: String Methods                	 |									       | HW 3 Due |
+| 6      | Notebook 5: Dictionaries  (fully online)      | 			                               | HW 4 Due |
+| 7      | Notebook 6: File IO (fully online) 		     |	 									   | No HW Due|
+| 8      | Notebook 7: While loops						 |								           | HW 5 Due |
+| 9      | Midterm  Practice and Q&A              		 | Midterm          					   | HW 6 Due |
+| 10     | Notebook 8: Function definition          	 |										   | No HW Due|
+| 11     | Notebook 9: REG Expressions					 |										   | HW 7 Due |
+| 12     | Notebook 10: Classes         				 |					              	   	   | HW 8 Due |
+| 13     | Notebook 10: Advanced N-gram 				 |		                                   | HW 9 Due |
+| 14     | Buffer  (maybe data manipulation with pandoc) |					      				   | HW 10 Due|	
+| 15     | Buffer   \& General discussion (fully online) |					      				   | No HW Due|	
 | 16     | Finals week									 | Class Survey Due					       | No HW Due|	
 
 Additional topics include good coding practices, design with flowcharts, debugging, and data visualization.
